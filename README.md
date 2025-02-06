@@ -75,7 +75,6 @@ To analyze stock data, the program:
 - Loads individual stock files (`AAPL.csv`, `GOOG.csv`, etc.).
 - Computes various stock indicators.
 - Detects volume spikes and flash crashes.
-- To view results uncomment the code in main file or modify it accordingly.
 
 ### License
 This project is open-source under the MIT License.
