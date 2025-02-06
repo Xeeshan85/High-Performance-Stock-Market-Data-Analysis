@@ -44,15 +44,6 @@ git clone https://github.com/Xeeshan85/High-Performance-Stock-Market-Data-Analys
 cd High-Performance-Stock-Market-Data-Analysis
 ```
 ### Building the Project
-**Using g++ (Command Line)**
-Compile the program with AVX and pthread support:
-```
-g++ -O3 -march=native -pthread -std=c++17 -o stock_analyzer main.cpp
-```
-- `O3`: Enables high-level optimizations
-- `march=native`: Uses all available CPU instructions
-- `pthread`: Enables multithreading
-
 **Using CMake**
 Create a Build Directory
 ```
